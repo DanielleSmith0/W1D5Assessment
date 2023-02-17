@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "A version control center that takes snapshots of my code as it progresses."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "The remote 'snapshot' storage site."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+let gitInitDefinition = "Initializes repo, so it can be stored elsewhere."
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+let gitCloneDefinition = "Copies from the server."
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+let gitStatusDefinition = "Verification of what is already commited and what changes need to be added."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,12 @@
 
 //CODE HERE
 
+let gitAddDefinition = "Adds changes to staging area, so they can be committed."
+
+let gitAddCode = "git add ."
+
+//or add the URL https://github.com/DanielleSmith0/W1D5Assessment.git
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +81,9 @@
 
 //CODE HERE
 
+let gitCommitDefinition = "Commits the the copy into a permanent snapshot."
+
+const gitCommitCode = "git commit -m 'initial commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +92,5 @@
 */
 
 //CODE HERE
+
+let gitPushDefinition = "pushes the snapshot to the remote Github."
