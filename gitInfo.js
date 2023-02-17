@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-let gitDefinition = "A version control center that takes snapshots of my code as it progresses."
+const gitDefinition = "A version control center that takes snapshots of my code as it progresses."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -21,7 +21,7 @@ let gitDefinition = "A version control center that takes snapshots of my code as
 
 //CODE HERE
 
-let gitHubDefinition = "The remote 'snapshot' storage site."
+const gitHubDefinition = "The remote 'snapshot' storage site."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -31,7 +31,7 @@ let gitHubDefinition = "The remote 'snapshot' storage site."
 
 //CODE HERE
 
-let gitInitDefinition = "Initializes repo, so it can be stored elsewhere."
+const gitInitDefinition = "Initializes repo, so it can be stored elsewhere."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +41,7 @@ let gitInitDefinition = "Initializes repo, so it can be stored elsewhere."
 
 //CODE HERE
 
-let gitCloneDefinition = "Copies from the server."
+const gitCloneDefinition = "Copies from the server."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,7 +51,7 @@ let gitCloneDefinition = "Copies from the server."
 
 //CODE HERE
 
-let gitStatusDefinition = "Verification of what is already commited and what changes need to be added."
+const gitStatusDefinition = "Verification of what is already commited and what changes need to be added."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -64,9 +64,9 @@ let gitStatusDefinition = "Verification of what is already commited and what cha
 
 //CODE HERE
 
-let gitAddDefinition = "Adds changes to staging area, so they can be committed."
+const gitAddDefinition = "Adds changes to staging area, so they can be committed."
 
-let gitAddCode = "git add ."
+const gitAddCode = "git add ."
 
 //or add the URL https://github.com/DanielleSmith0/W1D5Assessment.git
 
@@ -81,7 +81,7 @@ let gitAddCode = "git add ."
 
 //CODE HERE
 
-let gitCommitDefinition = "Commits the the copy into a permanent snapshot."
+const gitCommitDefinition = "Commits the the copy into a permanent snapshot."
 
 const gitCommitCode = "git commit -m 'initial commit'"
 
@@ -93,4 +93,4 @@ const gitCommitCode = "git commit -m 'initial commit'"
 
 //CODE HERE
 
-let gitPushDefinition = "pushes the snapshot to the remote Github."
+const gitPushDefinition = "pushes the snapshot to the remote Github."
