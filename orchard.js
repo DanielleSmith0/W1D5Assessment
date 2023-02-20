@@ -51,9 +51,36 @@ const pinkPrice = .55
 
 // CODE HERE
 
+//I would count and add to the total each time, so we want the loop to add. 
+//Make a for loop for adding up each week, then make a loop for all three loops. This is where total acres will be saved. Give them all totals with starting places of 0, so they add from a baseline place of reference.
 
+let fujiAcresTotal = 0
+let galaAcresTotal = 0
+let pinkAcresTotal = 0
 
+for (i = 0; i < fujiAcres.length; i++){
+    fujiAcresTotal += fujiAcres[i];
+}
 
+for (i = 0; i < galaAcres.length; i++){
+    galaAcresTotal += galaAcres[i];
+}
+
+for (i = 0; i < fujiAcres.length; i++){
+    pinkAcresTotal += pinkAcres[i];
+}
+
+// console.log(fujiAcresTotal, galaAcresTotal, pinkAcresTotal);
+
+const totalAcresCombined = [fujiAcresTotal, galaAcresTotal, pinkAcresTotal];
+
+let totalAcres = 0
+
+for (i = 0; i < totalAcresCombined.length; i++){
+    totalAcres += totalAcresCombined[i];
+}
+
+console.log(totalAcres)
 
 // PROBLEM 2
 
@@ -69,9 +96,11 @@ const pinkPrice = .55
 
 // CODE HERE
 
+//7 days per week. The average is the total divided by 7.
 
+averageDailyAcres = totalAcres / 7;
 
-
+console.log(averageDailyAcres);
 
 // PROBLEM 3
 
@@ -107,7 +136,12 @@ let days = 0
 
 // CODE HERE
 
+// Write a while loop so that the function will stop when acresleft hits 0.
+// Write a for loop that goes backwards, so it ends on 0. The condition must be dependant on 
 
+while(acresLeft > 0) {
+
+}
 
 // PROBLEM 4
 
